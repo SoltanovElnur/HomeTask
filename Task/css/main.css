@@ -1,0 +1,355 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.clear {
+  clear: both;
+}
+
+#first .navbar {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/page-1.jpg);
+}
+#first .navbar .header {
+  position: relative;
+  margin: 65px 15px;
+}
+#first .navbar .header .logo {
+  float: left;
+}
+#first .navbar .header .panel {
+  float: right;
+}
+#first .navbar .header .panel ul li {
+  float: left;
+  list-style-type: none;
+}
+#first .navbar .header .panel ul li :hover {
+  color: lawngreen;
+  text-decoration-line: underline;
+}
+#first .navbar .header .panel ul li a {
+  text-decoration-line: none;
+  color: black;
+  padding-right: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#first .navbar .center {
+  text-align: center;
+  padding-top: 240px;
+  color: white;
+  text-shadow: 0 0 2px rgba(66, 70, 79, 0.5);
+}
+#first .navbar .center h2 {
+  line-height: 60px;
+  font-size: 35px;
+}
+#first .navbar .center em {
+  line-height: 60px;
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#first .navbar .center P {
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+#first .navbar .center button {
+  width: 220px;
+  height: 55px;
+  border-radius: 6px;
+  color: white;
+  background: linear-gradient(to right, #42b773 0%, #a9dc56 100%);
+  border: none;
+  cursor: pointer;
+}
+#first .navbar .dwnicon {
+  text-align: center;
+  padding-top: 330px;
+}
+#first .navbar .dwnicon a i {
+  position: relative;
+  font-size: 20px;
+  top: -20px;
+  left: -90px;
+  color: teal;
+}
+
+#second {
+  position: relative;
+}
+#second .boxb {
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+}
+#second .boxb .box {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  margin: 20px;
+  text-align: center;
+  line-height: 130px;
+  font-size: 30px;
+  color: grey;
+  border: 2px solid grey;
+  float: left;
+}
+#second .boxb .sentence {
+  width: 400px;
+  margin-top: 30px;
+  color: #658997;
+  display: inline-block;
+  text-align: left;
+}
+#second .boxb .sentence h3 {
+  color: #42b773;
+}
+#second .downgreen {
+  margin-top: 70px;
+  position: absolute;
+  left: 600px;
+  top: 340px;
+}
+#second .downgreen i {
+  position: relative;
+  font-size: 20px;
+  top: -20px;
+  left: -90px;
+  color: white;
+}
+
+#aboutus {
+  position: relative;
+  margin-top: 70px;
+  width: 100%;
+  background: linear-gradient(to bottom, #42b773 0%, #a9dc56 100%);
+}
+#aboutus h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+#aboutus .aboutbox {
+  float: left;
+  width: calc(100%/3);
+  box-sizing: border-box;
+  padding: 0px 20px;
+  text-align: center;
+}
+#aboutus .aboutbox .yumru img {
+  margin: 40px auto;
+  background: wheat;
+  border-radius: 100%;
+}
+#aboutus .aboutbox h3 {
+  color: white;
+  text-align: center;
+}
+#aboutus .aboutbox p {
+  margin: 10px auto;
+  color: white;
+  line-height: 22px;
+}
+#aboutus .s_green {
+  position: absolute;
+  left: 600px;
+  bottom: -68px;
+}
+#aboutus .s_green i {
+  position: relative;
+  font-size: 20px;
+  top: -20px;
+  left: -90px;
+  color: white;
+}
+
+#service {
+  position: relative;
+  padding-top: 70px;
+  width: 100%;
+  background: #f5f5f6;
+  z-index: -5;
+  height: 700px;
+}
+#service h1 {
+  color: #42464f;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 40px;
+}
+#service .servicebox {
+  float: left;
+  width: calc(100%/4);
+  box-sizing: border-box;
+  padding: 20px 20px;
+  text-align: center;
+}
+#service .servicebox i {
+  color: #42b773;
+  font-size: 60px;
+}
+#service .servicebox h3 {
+  color: #42464f;
+  padding-top: 20px;
+}
+#service .servicebox p {
+  padding-top: 20px;
+  color: #6597bf;
+}
+#service .s_white {
+  position: absolute;
+  left: 600px;
+  bottom: -4px;
+}
+#service .s_white i {
+  position: relative;
+  font-size: 20px;
+  top: -20px;
+  left: -90px;
+  color: #42b773;
+}
+
+#gallery {
+  margin-top: 70px;
+  width: 100%;
+  height: 600px;
+}
+#gallery h1 {
+  color: #42464f;
+  text-align: center;
+  font-size: 35px;
+  margin: 30px auto;
+}
+#gallery .gallerybox {
+  width: 100%;
+  height: 440px;
+}
+#gallery .gallerybox img {
+  width: 100%;
+}
+#gallery .gallerybox .block {
+  width: 100%;
+  height: 50%;
+}
+#gallery .gallerybox .block .kbox {
+  width: calc(100%/8);
+  float: left;
+}
+#gallery .gallerybox .block .kbox .k {
+  width: 100%;
+}
+#gallery .gallerybox .block .bbox {
+  width: calc(100%/4);
+  float: left;
+}
+#gallery .gallerybox .block .bbox .b {
+  width: 100%;
+}
+#gallery .gallerybox .block2 {
+  width: 100%;
+}
+#gallery .gallerybox .block2 .kbox {
+  width: calc(100%/8);
+  float: left;
+}
+#gallery .gallerybox .block2 .kbox .k {
+  width: 100%;
+}
+#gallery .gallerybox .block2 .bbox {
+  width: calc(100%/4);
+  float: left;
+}
+#gallery .gallerybox .block2 .bbox .b {
+  width: 100%;
+}
+
+#social > i {
+  position: relative;
+  font-size: 20px;
+  top: 45px;
+  left: 670px;
+  color: white;
+}
+#social img {
+  margin: 0px 600px;
+}
+#social .inline {
+  width: 100%;
+  height: 70px;
+  background: #42b773;
+  text-align: center;
+}
+#social .inline .icons {
+  width: 40%;
+  height: 50%;
+  margin: 0px auto;
+  padding-top: 20px;
+  color: white;
+}
+#social .inline .icons i {
+  line-height: 35px;
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+#contacts .contacs h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+#contacts .telefone {
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  margin: 40px auto;
+  font-size: 20px;
+}
+#contacts .telefone i {
+  color: #42b773;
+  padding-right: 20px;
+  line-height: 10px;
+}
+#contacts .telefone p {
+  padding-top: 20px;
+  font-size: 12px;
+}
+#contacts .finish {
+  margin-left: 70px;
+}
+#contacts .finish input {
+  width: 400px;
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  float: left;
+}
+#contacts .finish .message {
+  margin-top: 40px;
+  width: 94%;
+  height: 150px;
+}
+#contacts .finish button {
+  width: 220px;
+  height: 50px;
+  margin: 20px auto;
+  margin-left: 500px;
+  background: #42b773;
+  color: white;
+}
